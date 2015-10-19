@@ -2,7 +2,7 @@ sudo: required
 language: ruby
 rvm:
   - 2.2.2
-script: bundle exec blade ci
+script: sudo bin/blade ci
 before_install:
   - true && `base64 --decode <<< ZXhwb3J0IFNBVUNFX1VTRVJOQU1FPSJiYXNlY2FtcF90cml4Igo=`
   - true && `base64 --decode <<< ZXhwb3J0IFNBVUNFX0FDQ0VTU19LRVk9IjI2NzhhODczLTcyZjQtNDc1Ni05M2I1LWYxYThlMmU3NzgyMSIK`
