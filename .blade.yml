@@ -19,6 +19,7 @@ build:
 
 plugins:
   sauce_labs:
+    log: true
     browsers:
       Google Chrome:
         os: Mac, Windows

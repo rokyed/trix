@@ -1,4 +1,12 @@
 GIT
+  remote: git://github.com/javan/blade-sauce_labs_plugin.git
+  revision: da6bbc873b96d5a57200be996d15a387958c4cb5
+  specs:
+    blade-sauce_labs_plugin (0.4.0)
+      blade
+      faraday
+
+GIT
   remote: git://github.com/javan/blade.git
   revision: d9804bf3a3a6f241dc66bf8ef03adf8da4a3af4e
   specs:
@@ -26,9 +34,6 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.3.8)
     blade-qunit_adapter (0.4.0)
-    blade-sauce_labs_plugin (0.4.0)
-      blade
-      faraday
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -96,7 +101,7 @@ PLATFORMS
 
 DEPENDENCIES
   blade!
-  blade-sauce_labs_plugin (~> 0.4.0)
+  blade-sauce_labs_plugin!
   coffee-script
   coffee-script-source (~> 1.9.1)
   eco
