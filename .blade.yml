@@ -20,6 +20,7 @@ build:
 plugins:
   sauce_labs:
     log: true
+    sudo: true
     browsers:
       Google Chrome:
         os: Mac, Windows
