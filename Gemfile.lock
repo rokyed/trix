@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/javan/blade-sauce_labs_plugin.git
-  revision: da6bbc873b96d5a57200be996d15a387958c4cb5
+  revision: f7c623f409ac683d1b70e67b7c10242789079ac7
   specs:
     blade-sauce_labs_plugin (0.4.0)
       blade
