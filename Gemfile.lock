@@ -104,6 +104,3 @@ DEPENDENCIES
   sass
   sprockets
   uglifier
-
-BUNDLED WITH
-   1.10.6

@@ -18,8 +18,14 @@ Trix.config.textAttributes =
       matchingSelector = "a:not(#{attachmentSelector})"
       if link = Trix.findClosestElementFromNode(element, {matchingSelector})
         link.getAttribute("href")
-  strike:
-    tagName: "del"
+  underline:
+    tagName: "u"
+    inheritable: true
+  subscript:
+    tagName: "sub"
+    inheritable: true
+  superscript:
+    tagName: "sup"
     inheritable: true
   frozen:
     style: { "backgroundColor": "highlight" }
